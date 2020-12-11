@@ -13,21 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Madan Baduwal
-email: madanbaduwal100@gmail.com
+title: Priyanka Paudel
+email: pouudelnipriyanka@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am a Mathematic Enthusiastic and AI explorer.
   I explore artificial intelligence concepts through image,video and animation.
-url: "https://madanbaduwal.com.np"
-twitter_username: MadanBaduwal1
-github_username: MadanBaduwal
-stackoverflow_username: madan-baduwal
-linkiden_username: MadanBaduwal
+url: "https://priyanka36.github.io"
+twitter_username: 
+github_username: 
+stackoverflow_username: 
+linkiden_username: 
 minimal_mistakes_skin: default
 search: true
 
 twitter:
-  username: "MadanBaduwal1"
+  username: ""
 
 # Build settings
 markdown: kramdown
@@ -65,7 +65,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Madan Baduwal"
+  name   : "Priyanka Paudel"
   avatar : "/images/my-image.jpg"
   bio    : "Mathematic Enthusiastic and AI explorer"
   links:
