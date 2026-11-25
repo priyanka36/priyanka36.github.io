@@ -1,11 +1,28 @@
 ---
 layout: default
 ---
-<article class="prose page">
-  {% if page.title and page.title != "" %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
-  {% if page.collection == "posts" %}
-    <p class="page-meta">{{ page.date | date: "%B %Y" }}</p>
-    {% if page.header.teaser %}<img class="page-teaser" src="{{ page.header.teaser }}" alt="">{% endif %}
-  {% endif %}
+{%- if page.collection == "posts" -%}
+<article class="prose page post">
+  <a class="back-link" href="{{ '/projects/' | relative_url }}"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i> All projects</a>
+  <h1 class="page-title">{{ page.title }}</h1>
+  {%- if page.tags.size > 0 %}
+  <div class="chips">{% for t in page.tags %}<span class="chip">{{ t }}</span>{% endfor %}</div>
+  {%- endif %}
+  {% if page.header.teaser %}<img class="page-teaser" src="{{ page.header.teaser }}" alt="">{% endif %}
   {{ content }}
 </article>
+{%- else -%}
+{%- if page.title and page.title != "" -%}
+<section class="page-hero">
+  {% include hero-network.html %}
+  <div class="page-hero-inner">
+    <p class="page-kicker">{{ page.kicker | default: "Priyanka Paudel" }}</p>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
+  </div>
+</section>
+{%- endif -%}
+<article class="prose page">
+  {{ content }}
+</article>
+{%- endif -%}

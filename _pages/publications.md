@@ -2,6 +2,8 @@
 layout: single
 title: "Publications"
 permalink: /publications/
+kicker: "Research"
+subtitle: "Journal articles and preprints on federated learning, medical imaging, and AI evaluation."
 ---
 
 <p class="lead">For citation counts and the most up-to-date list, see my <a href="https://scholar.google.com/citations?user=Bl1KmboAAAAJ&hl=en">Google Scholar profile</a>.</p>

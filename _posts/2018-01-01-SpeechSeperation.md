@@ -8,6 +8,7 @@ author_profile: true
 read_time: true
 permalink : /SourceSeperation/
 categories: [Projects]
+tags: [Audio, Deep Learning]
 excerpt : "Machine learning and deep learning techniques for separating speech from multi-channel, multi-source audio."
 header :
     og_image : "https://raw.githubusercontent.com/priyanka36/priyanka36.github.io/main/images/Audio_TimeDomain.png"

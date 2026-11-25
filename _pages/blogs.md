@@ -1,28 +1,29 @@
 ---
 title: "Blog"
 permalink: /blogs/
-layout: archive
-author_profile: true
+layout: single
+kicker: "Writing"
+subtitle: "Technical write-ups on audio signal processing and machine learning, originally published on Medium."
 ---
 
-Technical write-ups, mostly on audio signal processing, originally published on [Medium](https://medium.com/@poudelnipriyanka).
+<!-- To add an article, edit _data/blog.yml -->
 
-**1. [Audio Source Separation Using Machine Learning and Deep Learning Techniques](https://medium.com/@poudelnipriyanka/audio-source-separation-using-machine-learning-and-deep-learning-techniques-884025f006)**  
-      Introduction to Audio Processing Techniques for MultiChannel MultiSource Audio Source Seperation.
-      
-**2. [Audio Metrics](https://medium.com/@poudelnipriyanka/audio-metrics-their-importance-and-their-necessity-417950b0d848)**  
-      Various subjective and Objective Measures that help in assesment of the sound quality for Audio Signal Processing Systems.
-      
-**3. [Basic Audio Nomenclature](https://medium.com/@poudelnipriyanka/audio-source-separation-vocabulary-9016d5b5620d)**  
-      Basic introduction to the commonly used terms in Audio Signal Processing ( Source Seperation Systems)
+<div class="series">
+  <i class="fa-solid fa-headphones" aria-hidden="true"></i>
+  <div><strong>Audio Signal Processing series</strong><span>{{ site.data.blog | size }} articles · from fundamentals to deep-learning source separation</span></div>
+  <a class="series-link" href="https://medium.com/@poudelnipriyanka">All on Medium <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+</div>
 
-**4. [Audio Normalization](https://medium.com/@poudelnipriyanka/audio-normalization-9dbcedfefcc0)**  
-      All about Audio Normalization, its types its necessity and its usefuleness.
-
-
-
-
-
-
-
-
+<div class="blog-grid">
+{%- for b in site.data.blog %}
+  <a class="blog-card" href="{{ b.url }}">
+    <div class="blog-cover cover-{{ forloop.index | modulo: 4 }}"><i class="fa-solid {{ b.icon }}" aria-hidden="true"></i></div>
+    <div class="blog-body">
+      <div class="chips">{% for t in b.tags %}<span class="chip">{{ t }}</span>{% endfor %}</div>
+      <h3>{{ b.title }}</h3>
+      <p>{{ b.summary }}</p>
+      <span class="card-cta">Read on Medium <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+    </div>
+  </a>
+{%- endfor %}
+</div>
