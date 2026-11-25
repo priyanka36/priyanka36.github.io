@@ -16,9 +16,10 @@ subtitle: "Technical write-ups on audio signal processing and machine learning, 
 
 <div class="blog-grid">
 {%- for b in site.data.blog %}
-  <a class="blog-card" href="{{ b.url }}">
+  <a class="blog-card{% if forloop.first %} blog-card--featured{% endif %}" href="{{ b.url }}">
     <div class="blog-cover cover-{{ forloop.index | modulo: 4 }}"><i class="fa-solid {{ b.icon }}" aria-hidden="true"></i></div>
     <div class="blog-body">
+      {% if forloop.first %}<span class="featured-label"><i class="fa-solid fa-star" aria-hidden="true"></i> Featured</span>{% endif %}
       <div class="chips">{% for t in b.tags %}<span class="chip">{{ t }}</span>{% endfor %}</div>
       <h3>{{ b.title }}</h3>
       <p>{{ b.summary }}</p>
