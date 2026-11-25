@@ -25,3 +25,12 @@ bundle install
 bundle exec jekyll serve
 # open http://localhost:4000
 ```
+
+## Thumbnail figures
+
+Blog and project thumbnails in `assets/img/` are computed figures (spectrograms, waveforms, a t-SNE of 20 Newsgroups). Regenerate both sizes with:
+
+```bash
+python3 _tools/make_figures.py assets/img/blog assets/img/projects /tmp/sk-data
+python3 _tools/make_figures.py assets/img/blog assets/img/projects /tmp/sk-data thumb
+```

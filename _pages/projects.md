@@ -20,6 +20,7 @@ subtitle: "Selected projects in multimodal AI, computer vision, NLP, and audio s
   {%- capture tagslug -%}{% for t in post.tags %}{{ t | downcase | slugify }} {% endfor %}{%- endcapture -%}
   <a class="card" href="{{ post.url | relative_url }}" data-tags="{{ tagslug | strip }}">
     {%- assign thumb = post.card_image | default: post.header.teaser -%}
+    {%- if post.card_image %}{% assign thumb = post.card_image | replace: ".jpg", "-thumb.jpg" %}{% endif -%}
     {%- if thumb %}<div class="card-img"><img src="{{ thumb | relative_url }}" alt="" loading="lazy"></div>{% endif %}
     <div class="card-body">
       <div class="chips">{% for t in post.tags %}<span class="chip">{{ t }}</span>{% endfor %}</div>

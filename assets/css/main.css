@@ -529,3 +529,12 @@ body::after {
 /* zoom illustrated thumbnails in small cards so the artwork fills the frame */
 .card-img img[src$=".svg"], .blog-grid .blog-card:not(.blog-card--featured) .blog-cover.has-image img { transform: scale(1.25); }
 .card:hover .card-img img[src$=".svg"], .blog-grid .blog-card:not(.blog-card--featured):hover .blog-cover.has-image img { transform: scale(1.32); }
+
+/* Research-figure thumbnails (dark plots): never crop axes */
+.blog-cover.has-image, .card-img { background: #0f1115; }
+.blog-card--featured .blog-cover.has-image img { object-fit: contain; }
+.card-img img[src$=".jpg"] { object-fit: cover; }
+/* thumbnails are composed for their frame: show whole figure, no zoom; dark backing everywhere */
+.card-img img, .blog-grid .blog-card .blog-cover.has-image img { object-fit: contain !important; transform: none !important; }
+.card:hover .card-img img, .blog-grid .blog-card:hover .blog-cover.has-image img { transform: scale(1.03) !important; }
+.blog-grid .blog-card.blog-card--featured .blog-cover.has-image { background: #0f1115; }

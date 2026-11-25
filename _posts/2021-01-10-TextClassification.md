@@ -9,7 +9,7 @@ read_time: true
 permalink : /TextClassification/
 categories: [Projects]
 tags: [NLP]
-card_image: /assets/img/projects/text-classification.svg
+card_image: /assets/img/projects/text-classification.jpg
 excerpt : "Multi-class classification of text messages using NLP feature extraction and machine learning models."
 header :
     og_image : "https://raw.githubusercontent.com/priyanka36/priyanka36.github.io/main/images/TextClassificationImage.png"
