@@ -1,22 +1,26 @@
 # Blog articles, shown as cards on /blogs/. Newest or most important first.
-# icon: any Font Awesome solid icon name, e.g. fa-wave-square
+# image: cover illustration (optional); icon: Font Awesome fallback when there is no image
 - title: "Audio Source Separation Using Machine Learning and Deep Learning Techniques"
   url: "https://medium.com/@poudelnipriyanka/audio-source-separation-using-machine-learning-and-deep-learning-techniques-884025f006"
   summary: "An introduction to audio processing techniques for separating sources in multi-channel, multi-source recordings."
   tags: [Audio, Source Separation, Deep Learning]
   icon: fa-wave-square
+  image: /assets/img/blog/source-separation.svg
 - title: "Audio Metrics: Their Importance and Necessity"
   url: "https://medium.com/@poudelnipriyanka/audio-metrics-their-importance-and-their-necessity-417950b0d848"
   summary: "The subjective and objective measures used to assess sound quality in audio signal processing systems."
   tags: [Audio, Evaluation]
   icon: fa-chart-line
+  image: /assets/img/blog/audio-metrics.svg
 - title: "Basic Audio Nomenclature"
   url: "https://medium.com/@poudelnipriyanka/audio-source-separation-vocabulary-9016d5b5620d"
   summary: "A beginner-friendly guide to the terms you will meet in audio signal processing and source separation."
   tags: [Audio, Fundamentals]
   icon: fa-book-open
+  image: /assets/img/blog/audio-nomenclature.svg
 - title: "Audio Normalization"
   url: "https://medium.com/@poudelnipriyanka/audio-normalization-9dbcedfefcc0"
   summary: "What audio normalization is, the main types, and why it matters before training audio models."
   tags: [Audio, Preprocessing]
   icon: fa-sliders
+  image: /assets/img/blog/audio-normalization.svg
