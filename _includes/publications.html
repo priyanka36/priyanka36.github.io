@@ -1,0 +1,22 @@
+{%- comment -%}
+  Usage: {% include publications.html %}            all papers
+         {% include publications.html selected=true %}  only selected
+         {% include publications.html type="preprint" %}
+{%- endcomment -%}
+<ol class="pubs">
+{%- for pub in site.data.publications -%}
+  {%- if include.selected and pub.selected != true -%}{%- continue -%}{%- endif -%}
+  {%- if include.type and pub.type != include.type -%}{%- continue -%}{%- endif -%}
+  <li class="pub">
+    <div class="pub-title">{{ pub.title }}</div>
+    <div class="pub-authors">{{ pub.authors | replace: "Priyanka Paudel", "<strong>Priyanka Paudel</strong>" }}</div>
+    <div class="pub-meta">
+      <span class="pub-badge pub-{{ pub.type }}">{% if pub.type == "preprint" %}Preprint{% elsif pub.type == "journal" %}Journal{% else %}Conference{% endif %}</span>
+      <span>{% if pub.venue != "" %}<em>{{ pub.venue }}</em>, {% endif %}{{ pub.year }}</span>
+      {%- for link in pub.links %}
+      <a class="pub-link" href="{{ link[1] }}">{{ link[0] }}</a>
+      {%- endfor %}
+    </div>
+  </li>
+{%- endfor -%}
+</ol>

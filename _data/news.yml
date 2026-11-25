@@ -1,0 +1,9 @@
+# News items, newest first. Markdown is allowed in "text".
+- date: "2026"
+  text: "Preprints released on [federated polyp segmentation (QFedPolyp)](https://arxiv.org/abs/2607.22743), [multi-omics breast cancer prediction](https://arxiv.org/abs/2607.16250), and [radar detection in the CBRS band](https://arxiv.org/abs/2608.01786)."
+- date: "2026"
+  text: "Our survey on federated learning was published in *Computers*."
+- date: "Jan 2026"
+  text: "Started my PhD in Computer Science at Mississippi State University, advised by [Dr. Jingdao Chen](https://www.cse.msstate.edu/people/faculty/jingdao-chen/), and joined the Data Science Program as a Teaching Assistant working with [Dr. Jonathan Barlow](https://datascience.msstate.edu/directory/jhb11)."
+- date: "Dec 2025"
+  text: "Completed my M.S. in Computer Science and Artificial Intelligence at the University of Missouri–St. Louis."

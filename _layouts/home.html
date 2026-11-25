@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<section class="hero">
+{% include hero-network.html %}
+<header class="profile">
+  <img class="profile-photo" src="{{ site.author.avatar | relative_url }}" alt="Photo of {{ site.author.name }}">
+  <div class="profile-text">
+    <h1 class="profile-name">{{ site.author.name }}</h1>
+    <p class="profile-role">{{ site.author.role }}</p>
+    <p class="profile-affil">{{ site.author.affiliation }}</p>
+    <ul class="profile-links">
+      {%- for link in site.author.links -%}
+      <li><a href="{{ link.url | relative_url }}"><i class="{{ link.icon }}" aria-hidden="true"></i>{{ link.label }}</a></li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</header>
+</section>
+
+<article class="prose">
+  {{ content }}
+</article>

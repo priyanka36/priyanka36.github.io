@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!-- Source for assets/Documents/Paudel_Priyanka_CV.pdf. Rebuild with: bash _cv/build.sh -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Priyanka Paudel — Curriculum Vitae</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  @page { size: Letter; margin: 0.7in 0.75in 0.7in 0.75in; }
+  :root { --accent: #7d1d2c; --muted: #555; --rule: #c9c2bd; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Source Serif 4", "Noto Serif", Georgia, serif;
+    font-size: 10.5pt; line-height: 1.38; color: #1a1a1a;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  a { color: inherit; text-decoration: none; }
+
+  header { text-align: center; margin-bottom: 14pt; }
+  .name { font-size: 22pt; font-weight: 700; letter-spacing: .02em; margin: 0; }
+  .title { font-size: 11pt; margin: 2pt 0 0; }
+  .contact { font-size: 9.5pt; color: var(--muted); margin-top: 5pt; }
+  .contact a { color: var(--accent); }
+  .contact .sep { margin: 0 6pt; color: var(--rule); }
+
+  h2 {
+    font-size: 12.5pt; font-weight: 700; color: var(--accent);
+    font-variant: small-caps; letter-spacing: .04em;
+    margin: 13pt 0 6pt; padding-bottom: 2pt; border-bottom: .75pt solid var(--rule);
+    break-after: avoid;
+  }
+  h3 { font-size: 9.5pt; font-weight: 600; font-style: italic; color: var(--muted); margin: 7pt 0 3pt; }
+
+  .entry { margin: 0 0 6pt; break-inside: avoid; }
+  .row { display: flex; justify-content: space-between; gap: 12pt; align-items: baseline; }
+  .what { font-weight: 600; }
+  .when { white-space: nowrap; font-variant-numeric: tabular-nums; color: var(--muted); font-size: 9.8pt; }
+  .where { font-style: italic; }
+  .note { color: var(--muted); }
+  ul { margin: 2pt 0 0; padding-left: 13pt; }
+  li { margin: 1pt 0; }
+  p { margin: 0 0 4pt; }
+
+  ol.pubs { margin: 0; padding-left: 0; list-style: none; counter-reset: pub; }
+  ol.pubs li { position: relative; padding-left: 24pt; margin: 0 0 5pt; break-inside: avoid; }
+  ol.pubs li::before { position: absolute; left: 0; color: var(--muted); font-variant-numeric: tabular-nums; }
+  ol.pubs.j li { counter-increment: pub; } ol.pubs.j li::before { content: "[J" counter(pub) "]"; }
+  ol.pubs.p { counter-reset: pre; } ol.pubs.p li { counter-increment: pre; } ol.pubs.p li::before { content: "[P" counter(pre) "]"; }
+  .me { font-weight: 700; }
+  .ptitle { }
+  .venue { font-style: italic; }
+
+  table.skills { border-collapse: collapse; width: 100%; }
+  table.skills td { padding: 1pt 0; vertical-align: top; }
+  table.skills td:first-child { width: 1.45in; font-weight: 600; }
+
+  footer.updated { margin-top: 14pt; text-align: right; font-size: 8.5pt; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<header>
+
+  <p class="name">Priyanka Paudel</p>
+  <p class="title">Ph.D. Student, Department of Computer Science and Engineering, Mississippi State University</p>
+  <div class="contact">
+    <a href="mailto:poudelnipriyanka@gmail.com">poudelnipriyanka@gmail.com</a><span class="sep">|</span>
+    <a href="https://priyanka36.github.io">priyanka36.github.io</a><span class="sep">|</span>
+    <a href="https://scholar.google.com/citations?user=Bl1KmboAAAAJ">Google Scholar</a><span class="sep">|</span>
+    <a href="https://github.com/priyanka36">GitHub</a><span class="sep">|</span>
+    <a href="https://www.linkedin.com/in/priyanka-paudel-10361116b/">LinkedIn</a>
+  </div>
+</header>
+
+<h2>Research Interests</h2>
+<p>Multimodal AI (vision-language models); computer vision (detection, segmentation, tracking, depth estimation); robotics (robot perception and scene understanding); efficient and trustworthy AI (federated learning, evaluation of AI agents).</p>
+
+<h2>Education</h2>
+<div class="entry">
+  <div class="row"><span class="what">Ph.D. in Computer Science</span><span class="when">Jan 2026 – present</span></div>
+  <div><span class="where">Mississippi State University</span>, Mississippi State, MS</div>
+  <div class="note">Advisor: <a href="https://www.cse.msstate.edu/people/faculty/jingdao-chen/">Dr. Jingdao Chen</a></div>
+</div>
+<div class="entry">
+  <div class="row"><span class="what">M.S. in Computer Science and Artificial Intelligence</span><span class="when">Jan 2024 – Dec 2025</span></div>
+  <div><span class="where">University of Missouri–St. Louis</span>, St. Louis, MO</div>
+</div>
+<div class="entry">
+  <div class="row"><span class="what">B.E. in Computer Engineering</span><span class="when">2015 – 2019</span></div>
+  <div><span class="where">Tribhuvan University</span>, Kathmandu, Nepal</div>
+</div>
+
+<h2>Publications</h2>
+<h3>Journal Articles</h3>
+<ol class="pubs j">
+  <li>M. Baduwal, <span class="me">P. Paudel</span>, and V. Chaudhary. “Federated Learning: A Survey of Core Challenges, Current Methods, and Opportunities.” <span class="venue">Computers</span>, 15(3):155, 2026.</li>
+</ol>
+<h3>Preprints</h3>
+<ol class="pubs p">
+  <li>M. Baduwal and <span class="me">P. Paudel</span>. “Radar Detection in the CBRS Band: Techniques, Challenges, and Future Directions.” <span class="venue">arXiv:2608.01786</span>, 2026.</li>
+  <li>M. Baduwal and <span class="me">P. Paudel</span>. “QFedPolyp: A Communication- and Inference-Efficient Federated Learning Framework for Polyp Segmentation.” <span class="venue">arXiv:2607.22743</span>, 2026.</li>
+  <li><span class="me">P. Paudel</span> and M. Baduwal. “Benchmarking Machine Learning Models for Multi-Omics-Based Breast Cancer Prediction.” <span class="venue">arXiv:2607.16250</span>, 2026.</li>
+  <li>M. Baduwal and <span class="me">P. Paudel</span>. “Evaluating Agentic Artificial Intelligence: A Comprehensive Survey of Metrics, Benchmarks, and Methodologies.” <span class="venue">TechRxiv</span>, 2026.</li>
+  <li><span class="me">P. Paudel</span> and M. Baduwal. “Optimization Strategies and Complexity in ML Models.” 2026.</li>
+</ol>
+
+<h2>Teaching Experience</h2>
+<div class="entry">
+  <div class="row"><span><span class="what">Graduate Teaching Assistant</span>, <span class="where">Data Science Program, Mississippi State University</span></span><span class="when">Jan 2026 – present</span></div>
+  <ul>
+    <li>Support undergraduate data science courses, working with <a href="https://datascience.msstate.edu/directory/jhb11">Dr. Jonathan Barlow</a>.</li>
+  </ul>
+</div>
+<div class="entry">
+  <div class="row"><span><span class="what">Instructor (Undergraduate Student Teacher)</span>, <span class="where">University of Missouri–St. Louis</span></span><span class="when">Aug 2024 – Dec 2025</span></div>
+  <ul>
+    <li>Independently taught <em>Introduction to Python Computing</em>: designed and delivered lectures, labs, and coding sessions on programming fundamentals, data structures, and problem solving.</li>
+  </ul>
+</div>
+<div class="entry">
+  <div class="row"><span><span class="what">Graduate Teaching Assistant</span>, <span class="where">University of Missouri–St. Louis</span></span><span class="when">Jan 2024 – Dec 2025</span></div>
+  <ul>
+    <li>Led lab and discussion sections, graded assignments, exams, and projects for undergraduate courses, and supported faculty with curriculum development and research tasks.</li>
+  </ul>
+</div>
+
+<h2>Research and Industry Experience</h2>
+<div class="entry">
+  <div class="row"><span><span class="what">Machine Learning Engineer</span>, <span class="where">Fusemachines</span>, New York, NY</span><span class="when">Nov 2021 – Nov 2023</span></div>
+  <ul>
+    <li>Developed multi-channel, multi-source speech separation for automatic speech recognition, reducing word error rate by 20–30% and improving source-to-interference ratio by 12 dB on real-world recordings.</li>
+    <li>Designed clustering-based methods to classify web pages as phishing, suspicious, or benign from HTML content and URLs (85–92% accuracy), and maintained the production ML pipeline on AWS.</li>
+  </ul>
+</div>
+<div class="entry">
+  <div class="row"><span><span class="what">Machine Learning Engineer (part-time)</span>, <span class="where">FeatherWebs</span>, Kathmandu, Nepal</span><span class="when">Aug 2023 – Oct 2023</span></div>
+  <ul>
+    <li>Fine-tuned BERT for named entity recognition, joint NER, and question answering (85–90% accuracy) within a RASA-based assistant, and built a résumé-parsing and matching system for applicant recommendation (80% precision).</li>
+  </ul>
+</div>
+<div class="entry">
+  <div class="row"><span><span class="what">Computer Vision Engineer (R&amp;D)</span>, <span class="where">National Innovation Centre</span>, Kathmandu, Nepal</span><span class="when">Jan 2021 – Nov 2021</span></div>
+  <ul>
+    <li>Built a robotic vision pipeline covering object detection, segmentation (80–85% mAP), tracking, face recognition (90–95% accuracy), and depth estimation with PyTorch and an Intel RealSense D435i camera.</li>
+  </ul>
+</div>
+<div class="entry">
+  <div class="row"><span><span class="what">Software Engineer</span>, <span class="where">UptechSys</span>, Kathmandu, Nepal</span><span class="when">Aug 2019 – Feb 2020</span></div>
+  <ul>
+    <li>Designed Django REST APIs and AWS background workers for extracting data from unstructured documents at over one million requests per day.</li>
+  </ul>
+</div>
+
+<h2>Outreach</h2>
+<div class="entry">
+  <div class="row"><span><span class="what">Workshop Instructor</span>, Fusemachines Outreach Team</span></div>
+  <ul>
+    <li>Led one-day workshops on AI, machine learning, and data science, with an end-to-end project and live coding, at Himalaya College of Engineering and Prime IT College, Nepal.</li>
+  </ul>
+</div>
+
+<h2>Technical Skills</h2>
+<table class="skills">
+  <tr><td>Languages</td><td>Python, R, C++, C, MATLAB, SQL, Bash, LaTeX</td></tr>
+  <tr><td>Machine Learning</td><td>PyTorch, TensorFlow, JAX, Hugging Face, scikit-learn, OpenCV, NumPy, pandas</td></tr>
+  <tr><td>Systems &amp; Data</td><td>AWS (SageMaker), GCP, Azure, Docker, MLflow, DVC, Airflow, Spark, Git, ROS</td></tr>
+</table>
+
+<footer class="updated">Last updated: November 2026</footer>
+</body>
+</html>

@@ -1,0 +1,57 @@
+# Publications, newest first. Rendered on the home page (selected: true) and on /publications/.
+# Fields: title, authors, venue, year, type (journal | conference | preprint), selected, links (label: url)
+# "Priyanka Paudel" is bolded automatically.
+
+- title: "Federated Learning: A Survey of Core Challenges, Current Methods, and Opportunities"
+  authors: "Madan Baduwal, Priyanka Paudel, V. Chaudhary"
+  venue: "Computers, 15(3):155"
+  year: 2026
+  type: journal
+  selected: true
+  links:
+    Scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bl1KmboAAAAJ&citation_for_view=Bl1KmboAAAAJ:Tyk-4Ss8FVUC"
+
+- title: "Radar Detection in the CBRS Band: Techniques, Challenges, and Future Directions"
+  authors: "Madan Baduwal, Priyanka Paudel"
+  venue: "arXiv:2608.01786"
+  year: 2026
+  type: preprint
+  selected: false
+  links:
+    arXiv: "https://arxiv.org/abs/2608.01786"
+
+- title: "QFedPolyp: A Communication- and Inference-Efficient Federated Learning Framework for Polyp Segmentation"
+  authors: "Madan Baduwal, Priyanka Paudel"
+  venue: "arXiv:2607.22743"
+  year: 2026
+  type: preprint
+  selected: true
+  links:
+    arXiv: "https://arxiv.org/abs/2607.22743"
+
+- title: "Benchmarking Machine Learning Models for Multi-Omics-Based Breast Cancer Prediction"
+  authors: "Priyanka Paudel, Madan Baduwal"
+  venue: "arXiv:2607.16250"
+  year: 2026
+  type: preprint
+  selected: true
+  links:
+    arXiv: "https://arxiv.org/abs/2607.16250"
+
+- title: "Evaluating Agentic Artificial Intelligence: A Comprehensive Survey of Metrics, Benchmarks, and Methodologies"
+  authors: "Madan Baduwal, Priyanka Paudel"
+  venue: "TechRxiv"
+  year: 2026
+  type: preprint
+  selected: true
+  links:
+    Scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bl1KmboAAAAJ&citation_for_view=Bl1KmboAAAAJ:LkGwnXOMwfcC"
+
+- title: "Optimization Strategies and Complexity in ML Models"
+  authors: "Priyanka Paudel, Madan Baduwal"
+  venue: ""
+  year: 2026
+  type: preprint
+  selected: false
+  links:
+    Scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Bl1KmboAAAAJ&citation_for_view=Bl1KmboAAAAJ:hqOjcs7Dif8C"
