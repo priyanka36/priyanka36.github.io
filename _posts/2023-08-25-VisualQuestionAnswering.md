@@ -9,6 +9,7 @@ read_time: true
 permalink : /VQA/
 categories: [Projects]
 tags: [Multimodal, Vision, NLP]
+card_image: /assets/img/projects/vqa.svg
 excerpt : "A system that answers natural-language questions about images by combining visual and textual representations."
 header :
     og_image : "https://raw.githubusercontent.com/priyanka36/priyanka36.github.io/main/images/VisualQuestionAnswering.png"

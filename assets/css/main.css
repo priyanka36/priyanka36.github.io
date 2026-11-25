@@ -519,3 +519,13 @@ body::after {
   -webkit-backdrop-filter: blur(22px) saturate(1.1); backdrop-filter: blur(22px) saturate(1.1);
 }
 .blog-card--featured .blog-cover.has-image img { position: relative; z-index: 1; }
+
+/* Illustrated thumbnails fill their frames (no letterboxing) */
+.card-img { background: transparent; }
+.blog-card--featured .blog-cover.has-image { background: none; display: block; aspect-ratio: auto; }
+.blog-card--featured .blog-cover.has-image::before { display: none; }
+.blog-card--featured .blog-cover.has-image img { position: absolute; inset: 0; height: 100%; object-fit: cover; }
+@media (max-width: 640px) { .blog-card--featured .blog-cover.has-image { aspect-ratio: 16 / 9; } }
+/* zoom illustrated thumbnails in small cards so the artwork fills the frame */
+.card-img img[src$=".svg"], .blog-grid .blog-card:not(.blog-card--featured) .blog-cover.has-image img { transform: scale(1.25); }
+.card:hover .card-img img[src$=".svg"], .blog-grid .blog-card:not(.blog-card--featured):hover .blog-cover.has-image img { transform: scale(1.32); }
