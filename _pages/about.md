@@ -49,7 +49,7 @@ I'm always happy to talk about research and collaborations. Feel free to [email 
 <ul class="entries">
   <li><span class="entry-what">Graduate Teaching Assistant</span><span class="entry-when">Jan 2026 – present</span><span class="entry-where">Data Science Program, Mississippi State University · with <a href="https://datascience.msstate.edu/directory/jhb11">Dr. Jonathan Barlow</a></span></li>
   <li><span class="entry-what">Instructor, <em>Introduction to Python Computing</em></span><span class="entry-when">Aug 2024 – Dec 2025</span><span class="entry-where">University of Missouri–St. Louis</span></li>
-  <li><span class="entry-what">Graduate Teaching Assistant</span><span class="entry-when">Jan 2024 – Dec 2025</span><span class="entry-where">University of Missouri–St. Louis</span></li>
+  <li><span class="entry-what">Graduate Teaching Assistant</span><span class="entry-when">Jan 2024 – Dec 2025</span><span class="entry-where">University of Missouri–St. Louis · with <a href="https://www.umsl.edu/cmpsci/directory/bhatia-sanjiv.html">Dr. Sanjiv Bhatia</a></span></li>
 </ul>
 
 ## Industry Experience
