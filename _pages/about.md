@@ -14,7 +14,7 @@ My research focuses on **multimodal AI**, **computer vision**, and **robotics**:
 
 Before my PhD, I received an M.S. in Computer Science and Artificial Intelligence from the University of Missouri–St. Louis and a B.E. in Computer Engineering from Tribhuvan University, Nepal. In between, I spent several years in industry R&D, building computer vision and NLP systems at Fusemachines and the National Innovation Centre, Nepal.
 
-I'm always happy to talk about research and collaborations. Feel free to [email me](mailto:poudelnipriyanka@gmail.com).
+I'm always happy to talk about research and collaborations. Feel free to [email me](mailto:paudelpreeyanka@gmail.com).
 
 ## Research Interests
 

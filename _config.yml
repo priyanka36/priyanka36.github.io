@@ -12,11 +12,11 @@ author:
   avatar: "/images/profile.jpg"
   role: "PhD Student, Computer Science"
   affiliation: "Mississippi State University"
-  email: "poudelnipriyanka@gmail.com"
+  email: "paudelpreeyanka@gmail.com"
   links:
     - label: "Email"
       icon: "fa-solid fa-envelope"
-      url: "mailto:poudelnipriyanka@gmail.com"
+      url: "mailto:paudelpreeyanka@gmail.com"
     - label: "CV"
       icon: "fa-solid fa-file-lines"
       url: "/cv/"
