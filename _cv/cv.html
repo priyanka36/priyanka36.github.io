@@ -19,7 +19,14 @@
 
   header { text-align: center; margin-bottom: 14pt; }
   .name { font-size: 22pt; font-weight: 700; letter-spacing: .02em; margin: 0; }
-  .title { font-size: 11pt; margin: 2pt 0 0; }
+  .title {
+    display: flex; align-items: center; justify-content: center; gap: 9pt;
+    margin: 5pt 0 0; font-size: 11.5pt; font-weight: 600; color: var(--accent);
+    font-variant: small-caps; letter-spacing: .08em;
+  }
+  .title::before, .title::after { content: ""; width: 0.9in; border-top: .75pt solid var(--accent); }
+  .affil { font-size: 10.5pt; font-style: italic; color: #333; margin: 2pt 0 0; }
+  .affil .dot { color: var(--accent); font-style: normal; margin: 0 5pt; }
   .contact { font-size: 9.5pt; color: var(--muted); margin-top: 5pt; }
   .contact a { color: var(--accent); }
   .contact .sep { margin: 0 6pt; color: var(--rule); }
@@ -63,7 +70,8 @@
 <header>
 
   <p class="name">Priyanka Paudel</p>
-  <p class="title">Ph.D. Student, Department of Computer Science and Engineering, Mississippi State University</p>
+  <p class="title">Ph.D. Student</p>
+  <p class="affil">Department of Computer Science and Engineering<span class="dot">&#9670;</span>Mississippi State University</p>
   <div class="contact">
     <a href="mailto:paudelpreeyanka@gmail.com">paudelpreeyanka@gmail.com</a><span class="sep">|</span>
     <a href="https://priyanka36.github.io">priyanka36.github.io</a><span class="sep">|</span>
