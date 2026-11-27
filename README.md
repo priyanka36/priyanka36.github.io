@@ -1,6 +1,6 @@
 # priyanka36.github.io
 
-Personal academic website of **Priyanka Paudel**, PhD student. Live at <https://priyanka36.github.io>.
+My Personal website **Priyanka Paudel**, PhD student. Live at <https://priyanka36.github.io>.
 
 Built with [Jekyll](https://jekyllrb.com/) using a small custom layout (no external theme), hosted on GitHub Pages.
 
